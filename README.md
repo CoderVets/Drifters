@@ -1,6 +1,5 @@
 # Drifters
 Drifters Project
-scott
 =======
 brian beat stu
 elliot was here
@@ -11,3 +10,4 @@ Robertt flash_hazard, yo!
 =======
 stu
 Nate finally made it!
+Scott - go CoderVets
