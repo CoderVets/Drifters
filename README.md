@@ -1,4 +1,3 @@
-Here we Go! Tim got it!# Drifters
 Drifters Project
 =======
 brian beat stu
@@ -11,3 +10,4 @@ Robertt flash_hazard, yo!
 stu
 Nate finally made it!
 Scott - go CoderVets
+Tim's here now!
