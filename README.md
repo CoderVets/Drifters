@@ -14,5 +14,6 @@ david was here. but then he wasnt.. but hes here again.
 yo
 David
 yo
-Danny R in da house ... code blue represent
+Danny R in da house ... code blue represent ... Times making changes
 Go Cards!
+Keep on trucking, getting the hang of it ... "Hello World!"
