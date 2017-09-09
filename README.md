@@ -31,7 +31,3 @@ Sports are overated
 Go Cards!
 <<<<<<< HEAD
 wubalubadubdub
-=======
-
->>>>>>> f6ab042a9bc5a778b00beac07bde68717d487bbd
->>>>>>> a4e2731c01be0aabb0c4f07bdba1ef1270ed944a
