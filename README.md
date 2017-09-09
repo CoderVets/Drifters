@@ -3,6 +3,10 @@ brian beat stu
 elliot was here again and Again
 leann says hi!
 Anne is finally here
+<<<<<<< HEAD
+>>>>>>> e16ae900c949e6665f9b8c20dabf7e2ebb1d0dd7
+regina hello
+=======
 GeneJordan (notTomArnold)
 Robertt flash_hazard, yo!
 stu
@@ -25,4 +29,9 @@ Go Cards!
 Sports are overated 
 =======
 Go Cards!
+<<<<<<< HEAD
 wubalubadubdub
+=======
+
+>>>>>>> f6ab042a9bc5a778b00beac07bde68717d487bbd
+>>>>>>> a4e2731c01be0aabb0c4f07bdba1ef1270ed944a
