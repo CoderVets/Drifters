@@ -3,7 +3,7 @@ brian beat stu
 elliot was here again and Again
 leann says hi!
 Anne is finally here
-GeneJ (notTomArnold)
+GeneJordan (notTomArnold)
 Robertt flash_hazard, yo!
 stu
 Nate finally made it!
@@ -25,5 +25,4 @@ Go Cards!
 Sports are overated 
 =======
 Go Cards!
->>>>>>> 607a30dda313cf67c5fd18f29ca4c9795173e40a
->>>>>>> e370030bec23e1e93097dc16bb8b3ac87679395b
+
