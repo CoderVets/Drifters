@@ -1,0 +1,3 @@
+rootProject.name = 'drifters_app'
+
+include ':app'
