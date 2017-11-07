@@ -10,6 +10,10 @@ export default class Lat extends Component {
   render() {
     return (
       <TextInput
+      placeholder = 'Lat'
+       keyboardType = 'numeric'
+          onChangeText = {(text)=> this.onChanged(text)}
+          value = {this.state.myNumber}
         style={{height: 30,
           width:250, 
           borderColor: 'blue', 
@@ -17,8 +21,8 @@ export default class Lat extends Component {
           textAlign:'center',
           justifyContent: 'center',
           }}
-        onChangeText={(text) => this.setState({text})}
-        value={this.state.text}
+        onChangeText={(text) => this.setState({myNumber: text})}
+        
       />
     );
   }
