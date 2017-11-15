@@ -11,14 +11,17 @@ export class DrifterApp extends React.Component{
         return(
             <View style={styles.container}>
 
-            
+            <Image source={require('./Img/Waterpkm.jpg')}
+                  style={styles.backgroundImage}>
+
 
                 
                 <FindMe/>
                 <Lat />
                 <Long />
 
-  
+
+             </Image>   
             </View>
         );
     }
