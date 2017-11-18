@@ -32,8 +32,6 @@ class DrifterApi(Resource):
             reader_arome = reader_netCDF_CF_generic.Reader(lw.test_data_folder() + 
                 '16Nov2015_NorKyst_z_surface/arome_subset_16Nov2015.nc')
 
-            # Norkyst
-            #reader_norkyst = reader_netCDF_CF_generic.Reader('http://thredds.met.no/thredds/dodsC/sea/norkyst800m/1h/aggregate_be')
             reader_norkyst = reader_netCDF_CF_generic.Reader('http://tds.hycom.org/thredds/dodsC/GLBu0.08/expt_91.2/uv3z')
 
             # Landmask (Basemap)
