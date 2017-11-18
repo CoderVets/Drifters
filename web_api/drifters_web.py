@@ -13,7 +13,7 @@ class DrifterApi(Resource):
     def get(self):
 
         parser = reqparse.RequestParser()
-        parser.add_argument('latitude', type=float, help='Latitude of object')
+        parser.add_argument('latitude', type=float, help='Latitude of the object')
         parser.add_argument('longitude', type=float, help='Longitude of object')
         args = parser.parse_args(strict=True)
         if args['latitude'] is not None and args['longitude'] is not None:
