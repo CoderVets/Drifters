@@ -29,11 +29,12 @@ class ProfileButton extends React.Component {
 var styles = StyleSheet.create({
   button: {
     
-    width: 150,
-    height: 150,
+    width: 250,
+    height: 250,
     borderRadius: 45,
     
   },
 });
 
 module.exports = ProfileButton;
+
