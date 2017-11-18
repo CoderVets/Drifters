@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Eric/Drifters/MyApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/Eric/.android/build-cache/051ee2b2c8dcd17dbd6e5c8f35cf745b6a55b5a8/output/res/color-v23/abc_tint_default.xml"
+    }
+]
