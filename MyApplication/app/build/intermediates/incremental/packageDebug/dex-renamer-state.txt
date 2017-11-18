@@ -1,0 +1,7 @@
+#Fri Oct 13 20:15:15 CDT 2017
+base.0=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_27a423e90ae6aae50ab905e51a1bafea8f28a2f7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8b5e25e26909c16c02a6798b2653c62e6c861f2f/classes.dex
+base.1=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8b5e25e26909c16c02a6798b2653c62e6c861f2f
+file.0=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_27a423e90ae6aae50ab905e51a1bafea8f28a2f7/classes.dex
