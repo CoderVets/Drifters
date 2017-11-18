@@ -11,7 +11,7 @@ export class DrifterApp extends React.Component{
         return(
           
             <View style={styles.container}>
-                <Header headerText={'Drifters Rock'}/>    
+                <Header headerText={'Drifters App'}/>    
                 <FindMe/>
                 <Lat />
                 <Long />
