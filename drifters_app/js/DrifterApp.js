@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: null,
     height: null,
-    backgroundColor: '#3498DB',
+    backgroundColor: '#3482CB',
   },
   message: {
     textAlign: 'auto'
