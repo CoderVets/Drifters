@@ -11,7 +11,7 @@ export class DrifterApp extends React.Component{
         return(
           
             <View style={styles.container}>
-                <Header headerText={'Drifters'}/>    
+                <Header headerText={'Drifters Rock'}/>    
                 <FindMe/>
                 <Lat />
                 <Long />
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: null,
     height: null,
-    backgroundColor: '#3498DB',
+    backgroundColor: '#3482CB',
   },
   message: {
     textAlign: 'auto'
