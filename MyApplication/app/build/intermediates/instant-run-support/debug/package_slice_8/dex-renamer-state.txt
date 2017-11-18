@@ -1,0 +1,4 @@
+#Fri Oct 06 18:31:00 CDT 2017
+base.0=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+renamed.0=classes.dex
+file.0=/Users/Eric/Drifters/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
