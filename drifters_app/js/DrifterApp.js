@@ -1,15 +1,23 @@
 import React, { Component, } from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, Image} from 'react-native';
 
 import FindMe from './Comps/FindMe'
+import Lat from './Comps/Lat'
+import Long from './Comps/Long'
+import Header from './Comps/Header'
 
 export class DrifterApp extends React.Component{
     render() {
         return(
+          
             <View style={styles.container}>
-                <FindMe style={styles.message}/>
-                <Text style={styles.message}>Hello world! Drifters test.</Text>
-                
+                <Header headerText={'Drifters'}/>    
+                <FindMe/>
+                <Lat />
+                <Long />
+
+
+               
             </View>
         );
     }
@@ -19,13 +27,14 @@ export class DrifterApp extends React.Component{
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    width: null,
+    height: null,
+    backgroundColor: '#3498DB',
   },
   message: {
     textAlign: 'auto'
-  }
-});
+  },
+}
+);
 
 module.exports = DrifterApp;
