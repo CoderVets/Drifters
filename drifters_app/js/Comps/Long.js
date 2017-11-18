@@ -15,12 +15,15 @@ export default class Long extends Component {
       onChangeText = {(text)=> this.onChanged(text)}
       value = {this.state.myNumber}
       
-    style={{height: 30,
+    style={{
+      height: 40,
       width:250, 
-      borderColor: 'red', 
-      borderWidth: 5,
+      borderColor: 'black', 
+      borderWidth: 3,
       textAlign:'center',
       justifyContent: 'center',
+      alignSelf: 'center',
+      fontSize: 20,
       }}
     onChangeText={(text) => this.setState({myNumber: text})}
    

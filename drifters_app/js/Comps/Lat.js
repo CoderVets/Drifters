@@ -11,17 +11,21 @@ export default class Lat extends Component {
     return (
       <TextInput
       placeholder = 'Lat'
-       keyboardType = 'numeric'
-          onChangeText = {(text)=> this.onChanged(text)}
-          value = {this.state.myNumber}
-        style={{height: 30,
-          width:250, 
-          borderColor: 'blue', 
-          borderWidth: 5,
-          textAlign:'center',
-          justifyContent: 'center',
-          }}
-        onChangeText={(text) => this.setState({myNumber: text})}
+      keyboardType = 'numeric'
+      onChangeText = {(text)=> this.onChanged(text)}
+      value = {this.state.myNumber}
+        
+    style={{
+      height: 40,
+      width:250, 
+      borderColor: 'blue', 
+      borderWidth: 3,
+      textAlign:'center',
+      justifyContent: 'center',
+      alignSelf: 'center',
+      fontSize: 20,
+      }}
+    onChangeText={(text) => this.setState({myNumber: text})}
         
       />
     );

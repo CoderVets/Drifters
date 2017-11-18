@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 class FindMe extends Component {
   constructor(props) {
@@ -32,7 +32,9 @@ class FindMe extends Component {
 
   render() {
     return (
-      <View style={{ flexGrow: 0, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={{ flexGrow: 0, alignItems: 'center', justifyContent: 'center',
+      height: 300, }}>
+        <Text style={styles.bodyText}> Your Current Location </Text>
         <Text>Latitude: {this.state.latitude}</Text>
         <Text>Longitude: {this.state.longitude}</Text>
         {this.state.error ? <Text>Error: {this.state.error}</Text> : null}
@@ -40,5 +42,11 @@ class FindMe extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+    bodyText: {
+      fontSize: 20,
+      fontWeight: 'bold', },
+});
 
 module.exports = FindMe;
