@@ -25,7 +25,7 @@ class DrifterApi(Resource):
             
             latitude = args['latitude']
             longitude = args['longitude']
-            lw = Leeway(loglevel=0)  # Set loglevel to 0 for debug information
+            lw = Leeway()  # Set loglevel to 0 for debug information
 
             # Arome
             #reader_arome = reader_netCDF_CF_generic.Reader('http://thredds.met.no/thredds/dodsC/arome25/arome_metcoop_default2_5km_latest.nc')
@@ -34,8 +34,7 @@ class DrifterApi(Resource):
 
             # Norkyst
             #reader_norkyst = reader_netCDF_CF_generic.Reader('http://thredds.met.no/thredds/dodsC/sea/norkyst800m/1h/aggregate_be')
-            reader_norkyst = reader_netCDF_CF_generic.Reader(lw.test_data_folder() + 
-                '16Nov2015_NorKyst_z_surface/norkyst800_subset_16Nov2015.nc')
+            reader_norkyst = reader_netCDF_CF_generic.Reader('http://tds.hycom.org/thredds/dodsC/GLBu0.08/expt_91.2/uv3z')
 
             # Landmask (Basemap)
             reader_basemap = reader_basemap_landmask.Reader(
@@ -56,7 +55,7 @@ class DrifterApi(Resource):
 
             # Seed leeway elements at defined position and time
             objType = 26  # 26 = Life-raft, no ballast
-            lw.seed_elements(longitude, latitude, radius=1000, number=3000,
+            lw.seed_elements(longitude, latitude, radius=100, number=30,
                             time=reader_arome.start_time, objectType=objType)
 
             lw.set_projection('+proj=merc')
