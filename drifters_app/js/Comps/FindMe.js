@@ -34,7 +34,7 @@ class FindMe extends Component {
     return (
       <View style={{ flexGrow: 0, alignItems: 'center', justifyContent: 'center',
       height: 300, }}>
-        <Text style={styles.bodyText}> Your Current Location </Text>
+        <Text style={styles.bodyText}> Current Location </Text>
         <Text>Latitude: {this.state.latitude}</Text>
         <Text>Longitude: {this.state.longitude}</Text>
         {this.state.error ? <Text>Error: {this.state.error}</Text> : null}
