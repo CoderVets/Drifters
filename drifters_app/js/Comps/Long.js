@@ -17,7 +17,7 @@ export default class Long extends Component {
       
     style={{
       height: 40,
-      width:250, 
+      width:350, 
       borderColor: 'black', 
       borderWidth: 3,
       textAlign:'center',
