@@ -17,7 +17,7 @@ export default class Lat extends Component {
         
     style={{
       height: 40,
-      width:200, 
+      width:100, 
       borderColor: 'blue', 
       borderWidth: 3,
       textAlign:'center',
