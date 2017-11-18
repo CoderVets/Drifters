@@ -28,6 +28,7 @@ export default class Long extends Component {
     onChangeText={(text) => this.setState({myNumber: text})}
    
       />
+      
     );
   }
 }
