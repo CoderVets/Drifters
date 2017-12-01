@@ -5,20 +5,17 @@ import FindMe from './Comps/FindMe'
 import LatLong from './Comps/LatLong'
 
 import Header from './Comps/Header'
+import MainButton from './Comps/MainButton'
 
 export class DrifterApp extends React.Component{
     render() {
         return(
           
             <View style={styles.container}>
-                <Header headerText={'Drifters Rock'}/>    
+                <Header headerText={'Drifters App'}/>    
                 <FindMe/>
                 <LatLong/>
-                
-
-
-
-
+                <MainButton/>
 
 
             </View>
