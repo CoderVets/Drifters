@@ -2,8 +2,8 @@ import React, { Component, } from 'react';
 import {StyleSheet, View, Text, Image} from 'react-native';
 
 import FindMe from './Comps/FindMe'
-import Lat from './Comps/Lat'
-import Long from './Comps/Long'
+import LatLong from './Comps/LatLong'
+
 import Header from './Comps/Header'
 import MainButton from './Comps/MainButton'
 
@@ -14,12 +14,10 @@ export class DrifterApp extends React.Component{
             <View style={styles.container}>
                 <Header headerText={'Drifters App'}/>    
                 <FindMe/>
-                <Lat />
-                <Long />
+                <LatLong/>
                 <MainButton/>
 
 
-               
             </View>
         );
     }
