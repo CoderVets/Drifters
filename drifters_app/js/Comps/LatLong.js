@@ -15,7 +15,7 @@ export default class Lat extends Component {
       placeholder = 'Lat'
       keyboardType = 'numeric'
       onChangeText = {(text)=> this.onChanged(text)}
-      value = {this.state.myNumber}
+      value = {this.state.myLat}
         
     style={{
       height: 40,
@@ -27,13 +27,13 @@ export default class Lat extends Component {
       alignSelf: 'center',
       fontSize: 20,
       }}
-    onChangeText={(text) => this.setState({myNumber: text})}
+    onChangeText={(text) => this.setState({myLat: text})}
         
       />
       <TextInput
       placeholder = 'Long'
       keyboardType = 'numeric'
-      
+      value = {this.state.myLong}
       
     style={{
       height: 40,
@@ -45,7 +45,7 @@ export default class Lat extends Component {
       alignSelf: 'center',
       fontSize: 20,
       }}
-    onChangeText={(text) => this.setState({myNumber: text})}
+    onChangeText={(text) => this.setState({myLong: text})}
    
       />
       </View>
