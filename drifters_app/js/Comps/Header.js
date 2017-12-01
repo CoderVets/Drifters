@@ -24,6 +24,7 @@ const styles = {
         elevation: 2
     },
     textStyle: {
+        color: 'white',
         fontSize: 30
     },
 };

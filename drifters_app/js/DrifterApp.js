@@ -5,6 +5,7 @@ import FindMe from './Comps/FindMe'
 import Lat from './Comps/Lat'
 import Long from './Comps/Long'
 import Header from './Comps/Header'
+import MainButton from './Comps/MainButton'
 
 export class DrifterApp extends React.Component{
     render() {
@@ -15,6 +16,7 @@ export class DrifterApp extends React.Component{
                 <FindMe/>
                 <Lat />
                 <Long />
+                <MainButton/>
 
 
                
