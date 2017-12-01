@@ -2,8 +2,8 @@ import React, { Component, } from 'react';
 import {StyleSheet, View, Text, Image} from 'react-native';
 
 import FindMe from './Comps/FindMe'
-import Lat from './Comps/Lat'
-import Long from './Comps/Lat'
+import LatLong from './Comps/LatLong'
+
 import Header from './Comps/Header'
 
 export class DrifterApp extends React.Component{
@@ -13,7 +13,7 @@ export class DrifterApp extends React.Component{
             <View style={styles.container}>
                 <Header headerText={'Drifters Rock'}/>    
                 <FindMe/>
-                <Lat />
+                <LatLong/>
                 
 
 
