@@ -22,13 +22,19 @@ export default class MainButton extends Component {
 
 const styles = StyleSheet.create({
   button: {
-    marginBottom: 30,
+    
+    
+    borderRadius: 50,
+    marginTop: 200,
+    marginBottom: 10,
     alignItems: 'center',
-    backgroundColor: '#95A5A6'
-    //flex: 1,
-    //flexDirection: 'column',
-    //justifyContent: 'center',
-    //alignItems: 'center'
+    backgroundColor: '#95A5A6',
+    
+   flexDirection: 'column',
+    justifyContent: 'flex-end',
+    alignItems: 'center'
+    
+    
   },
   buttonText: {
     padding: 20,

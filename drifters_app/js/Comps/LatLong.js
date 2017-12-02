@@ -18,10 +18,13 @@ export default class Lat extends Component {
       value = {this.state.myLat}
         
     style={{
-      height: 40,
+      marginTop: -100,
+      marginBottom: 10,
+      height: 50,
       width:200, 
       borderColor: 'blue', 
-      borderWidth: 3,
+      borderWidth: 1,
+      borderRadius: 20,
       textAlign:'center',
       justifyContent: 'center',
       alignSelf: 'center',
@@ -36,10 +39,11 @@ export default class Lat extends Component {
       value = {this.state.myLong}
       
     style={{
-      height: 40,
+      height: 50,
       width:200, 
-      borderColor: 'black', 
-      borderWidth: 3,
+     borderColor: 'black', 
+     borderWidth: 1,
+     borderRadius: 20,
       textAlign:'center',
       justifyContent: 'center',
       alignSelf: 'center',
