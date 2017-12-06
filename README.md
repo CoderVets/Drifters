@@ -1,14 +1,14 @@
-#Introduction
+# Introduction
 
-##Purpose
+## Purpose
 
 The Drifers app is designed to provide access to drift data to help recover objects lost out at sea.
 
-##Status
+## Status
 
 The current state of the app is in the early stages of Alpha.
 
-#Installation
+# Installation
 First you want to follow the instructions on
 https://facebook.github.io/react-native/docs/getting-started.html
 under Build Projects with Native Code to setup your environment.
@@ -30,9 +30,9 @@ Run the command:
 
 This will download all the dependencies that the application needs to run.
 
-#Running the App
+# Running the App
 
-##IOS
+## IOS
 
 Inside the directory `Drifters/drifters_app` run:
 
@@ -42,7 +42,7 @@ Inside the directory `Drifters/drifters_app` run:
 
 Note that you need a Mac computer to run this command.
 
-##Android
+## Android
 
 Make sure you have an emulator running for Android.
 Within the directory `Drifters/drifters_app` run:
@@ -51,7 +51,7 @@ Within the directory `Drifters/drifters_app` run:
 ~>react-native run-android
 ```
 
-##Problems
+## Problems
 If you have any problems, first make sure you followed the steps on
 https://facebook.github.io/react-native/docs/getting-started.html
 for your particular OS and target OS.
