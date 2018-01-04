@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { WebView } from 'react-native';
 
-class GoogleMap extends Component {
+export default class GoogleMap extends Component {
   render() {
     return (
       <WebView
