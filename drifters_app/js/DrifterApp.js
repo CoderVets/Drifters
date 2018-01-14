@@ -15,6 +15,7 @@ const DrifterApp = StackNavigator({
         screen: GoogleMap,
         navigationOptions: {
         title: null,
+        header: null,
         }
     }
 });
