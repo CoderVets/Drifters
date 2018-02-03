@@ -16,11 +16,11 @@ under Build Projects with Native Code to setup your environment.
 Second, you want to clone the repository by running
 
 ```
-git clone https://github.com//CoderVets/Drifters.git
+git clone https://github.com/CoderVets/Drifters.git
 ```
 
 After cloning you have to setup the directory by downloading the dependencies.
-First make sure you are in the right directory `Drifters/drifters_app`
+First make sure you are in the right directory `Drifters`
 
 Run the command:
 
@@ -34,7 +34,7 @@ This will download all the dependencies that the application needs to run.
 
 ## IOS
 
-Inside the directory `Drifters/drifters_app` run:
+Inside the directory `Drifters` run:
 
 ```
 react-native run-ios
@@ -45,13 +45,22 @@ Note that you need a Mac computer to run this command.
 ## Android
 
 Make sure you have an emulator running for Android.
-Within the directory `Drifters/drifters_app` run:
+Within the directory `Drifters` run:
 
 ```
 react-native run-android
 ```
 
+## Current Issues
+Manual input of Latitude and Longitute currently inop.
+
 ## Problems
 If you have any problems, first make sure you followed the steps on
 https://facebook.github.io/react-native/docs/getting-started.html
 for your particular OS and target OS.
+
+Brought to you by CoderVets Alpha Company 2017-2018.
+Elliot Elias
+Nathan Hartman
+LeAnn Nicholson
+Eric Polette
