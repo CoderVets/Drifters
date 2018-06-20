@@ -64,3 +64,4 @@ Elliot Elias
 Nathan Hartman
 LeAnn Nicholson
 Eric Polette
+Scott Cearley
